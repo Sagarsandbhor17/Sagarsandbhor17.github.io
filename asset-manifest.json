@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc939686.css",
-    "main.js": "/static/js/main.a1cd5562.js",
+    "main.css": "/static/css/main.d35252de.css",
+    "main.js": "/static/js/main.a64af2af.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/Sagar-Sandbhor(2).jpg": "/static/media/Sagar-Sandbhor(2).2d54307c154b9575ad88.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.bc939686.css.map": "/static/css/main.bc939686.css.map",
-    "main.a1cd5562.js.map": "/static/js/main.a1cd5562.js.map",
+    "main.d35252de.css.map": "/static/css/main.d35252de.css.map",
+    "main.a64af2af.js.map": "/static/js/main.a64af2af.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc939686.css",
-    "static/js/main.a1cd5562.js"
+    "static/css/main.d35252de.css",
+    "static/js/main.a64af2af.js"
   ]
 }
