@@ -1,7 +1,7 @@
 import { Box, Button, SimpleGrid, Text, VStack } from "@chakra-ui/react";
 import "./Home.css"
 
-const btnStyle={display:"flex",justifyContent:"space-between",width:"42%",marginTop:"0.8rem"}
+const btnStyle={display:"flex",justifyContent:"space-between",width:"45%",marginTop:"0.8rem"}
 const imgStyle={width:"90%",display:"block",margin:"auto"}
 
 export const Project=()=>{
@@ -18,10 +18,10 @@ export const Project=()=>{
     <Text color="yellow">A solo project excuted in 3 days.</Text>
     <div style={btnStyle}>
         <Button variant="outline" colorScheme="pink">
-           <a href="https://fiverr-clone-peach.vercel.app/"><Text fontWeight="bold">Live</Text></a>
+           <a target="_blank" href="https://fiverr-clone-peach.vercel.app/"><Text fontWeight="bold">Live</Text></a>
             </Button>
             <Button variant="outline" colorScheme="pink">
-           <a href="https://github.com/Sagarsandbhor17/rct101project/tree/main/fiverr"><Text fontWeight="bold">Code</Text></a>
+           <a target="_blank" href="https://github.com/Sagarsandbhor17/rct101project/tree/main/fiverr"><Text fontWeight="bold">Code</Text></a>
             </Button>
     </div>
   </Box>
@@ -36,10 +36,10 @@ export const Project=()=>{
     <Text color="white">Feature: Sign in,Sign up,Product pages,Sorting,Filter,Product Shipping</Text>
     <div style={btnStyle}>
         <Button variant="outline" colorScheme="pink">
-           <a href="https://starlit-haupia-dada95.netlify.app/"><Text fontWeight="bold">Live</Text></a>
+           <a target="_blank" href="https://starlit-haupia-dada95.netlify.app/"><Text fontWeight="bold">Live</Text></a>
             </Button>
             <Button variant="outline" colorScheme="pink">
-           <a href="https://github.com/humamul/Cool-Coders"><Text fontWeight="bold">Code</Text></a>
+           <a target="_blank" href="https://github.com/humamul/Cool-Coders"><Text fontWeight="bold">Code</Text></a>
             </Button>
     </div>
   </Box>
@@ -54,10 +54,10 @@ export const Project=()=>{
     <Text color="white">Feature: Add Hospital,Add Doctor,Filter,Sort,View Details</Text>
     <div style={btnStyle}>
         <Button variant="outline" colorScheme="pink">
-           <a href="https://codesandbox.io/s/hospital-management-03h5ix?file=/src/App.js"><Text fontWeight="bold">Live</Text></a>
+           <a target="_blank" href="https://codesandbox.io/s/hospital-management-03h5ix?file=/src/App.js"><Text fontWeight="bold">Live</Text></a>
             </Button>
             <Button variant="outline" colorScheme="pink">
-           <a href="https://codesandbox.io/s/hospital-management-03h5ix?file=/src/App.js"><Text fontWeight="bold">Code</Text></a>
+           <a target="_blank" href="https://codesandbox.io/s/hospital-management-03h5ix?file=/src/App.js"><Text fontWeight="bold">Code</Text></a>
             </Button>
     </div>
   </Box>

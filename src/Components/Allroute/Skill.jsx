@@ -1,6 +1,6 @@
 import {Box, SimpleGrid, Text} from "@chakra-ui/react";
 import "./Home.css";
-import GitHubCalendar from 'github-calendar';
+import GitHubCalendar from 'react-github-calendar';
 
 const gif={display:"flex",width:"20%",margin:"auto",justifyContent:"space-around",alignItems:"center"};
 const heading={color:"orangered",fontFamily:"sans-serif",fontSize:"2xl",fontWeight:"bold"};
@@ -123,9 +123,11 @@ export const Skill=()=>{
   </Box>
 
 </SimpleGrid>
-{/* <GitHubCalendar ="Sagarsandbhor17"/> */}
        </div>
-
+<div style={{color:"white",width:"70%",margin:"auto",marginTop:"1rem"}}>
+  <Text fontSize="2xl" fontWeight="medium" mb="1rem" textDecoration="underline">Github Contribution</Text>
+<GitHubCalendar margin="auto" fontColor="white" username="sagarsandbhor17"/>
+</div>
 
     </div>
 }

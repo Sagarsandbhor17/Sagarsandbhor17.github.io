@@ -8,11 +8,11 @@ export const Contact=()=>{
 <Text color="white" fontSize="2xl" fontFamily="sans-serif">Contact Me</Text>
 <div align="center" class="socialbtns">
 <ul>
-<li><a href="tel:+919527109441" class="fa fa-lg fa-mobile"></a></li>
-<li><a href="mailto:sagar12500gmail.com" class="fa fa-lg fa-google-plus"></a></li>
-<li><a href="https://github.com/Sagarsandbhor17" class="fa fa-lg fa-github"></a></li>
-<li><a href="https://www.linkedin.com/in/sagar-sandbhor-896474233" class="fa fa-lg fa-linkedin"></a></li>
-<li><a href="https://instagram.com/sagar_sandbhor.17" class="fa fa-lg fa-instagram"></a></li>
+<li><a target="_blank" href="tel:+919527109441" class="fa fa-lg fa-mobile"></a></li>
+<li><a target="_blank" href="mailto:sagar12500gmail.com" class="fa fa-lg fa-google-plus"></a></li>
+<li><a target="_blank" href="https://github.com/Sagarsandbhor17" class="fa fa-lg fa-github"></a></li>
+<li><a target="_blank" href="https://www.linkedin.com/in/sagar-sandbhor-896474233" class="fa fa-lg fa-linkedin"></a></li>
+<li><a target="_blank" href="https://instagram.com/sagar_sandbhor.17" class="fa fa-lg fa-instagram"></a></li>
 </ul>
 </div>
     </Box>
