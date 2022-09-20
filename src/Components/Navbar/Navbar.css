@@ -1,0 +1,7 @@
+.nav{
+    background-color:black;
+    position:sticky;
+    top:0;
+    justify-content: space-around;
+    padding:1rem;
+}
