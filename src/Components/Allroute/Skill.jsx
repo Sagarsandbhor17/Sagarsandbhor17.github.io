@@ -19,7 +19,7 @@ export const Skill=()=>{
             Front End
             </Text>
         <hr style={{backgroundColor:"grey",width:"100%",height:"2px",marginBottom:"1rem"}}/>
-<SimpleGrid columns={[1,2,4]} spacing='20px' width="90%" margin="auto" padding="1rem">
+<SimpleGrid columns={[1,2,2,4]} spacing='20px' width="90%" margin="auto" padding="1rem">
 
   <Box bg="white" style={boxStyle} className="Box" border="3px solid orangered">
     <img style={{width:"70%",height:"150px",margin:"auto"}} src="https://gayathry-portfolio.vercel.app/html.png"/>
@@ -124,9 +124,9 @@ export const Skill=()=>{
 
 </SimpleGrid>
        </div>
-<div style={{color:"white",width:"80%",margin:"auto",marginTop:"1rem"}}>
-  <Text fontSize="2xl" fontWeight="medium" mb="1rem" textDecoration="underline">Github Contribution</Text>
-<GitHubCalendar margin="auto" fontColor="white" username="sagarsandbhor17"/>
+<div style={{color:"orangered",width:"70%",margin:"auto",marginTop:"1rem"}}>
+  <Text fontSize="2xl" color="orangered" fontWeight="medium" mb="1rem">Github Contribution</Text>
+<GitHubCalendar margin="auto" username="sagarsandbhor17"/>
 </div>
 
     </div>
