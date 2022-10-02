@@ -124,7 +124,7 @@ export const Skill=()=>{
 
 </SimpleGrid>
        </div>
-<div style={{color:"white",width:"70%",margin:"auto",marginTop:"1rem",border:'1px solid gray',padding:'2rem'}}>
+<div style={{color:"white",width:"70%",margin:"auto",marginTop:"1rem"}}>
   <Text fontSize="2xl" color="white" fontWeight="medium" mb="1rem">Github Contribution</Text>
 <GitHubCalendar margin="auto" username="sagarsandbhor17"/>
 </div>
