@@ -97,7 +97,7 @@ export const Skill=()=>{
 
        <div style={{border:"1px solid",paddingTop:"1rem"}}>
         <Text color="orangered" fontFamily="sans-serif" fontSize="3xl" fontWeight="extrabold" >
-            Some Data
+            Statistics
             </Text>
         <hr style={{backgroundColor:"grey",width:"100%",height:"2px",marginBottom:"1rem"}}/>
 <SimpleGrid columns={[1,2,4]} spacing='20px' width="90%" margin="auto" padding="1rem">
@@ -113,7 +113,7 @@ export const Skill=()=>{
   </Box>
 
   <Box bg="black" style={boxStyle} borderRadius="full" className="Box" border="3px solid orangered">
-    <Text color="white" fontSize="2xl" fontWeight="extrabold" mt="2rem">4</Text>
+    <Text color="white" fontSize="2xl" fontWeight="extrabold" mt="2rem">5+</Text>
     <Text color="white">PROJECTS</Text>
   </Box>
 
@@ -124,8 +124,8 @@ export const Skill=()=>{
 
 </SimpleGrid>
        </div>
-<div style={{color:"orangered",width:"70%",margin:"auto",marginTop:"1rem"}}>
-  <Text fontSize="2xl" color="orangered" fontWeight="medium" mb="1rem">Github Contribution</Text>
+<div style={{color:"white",width:"70%",margin:"auto",marginTop:"1rem",border:'1px solid gray',padding:'2rem'}}>
+  <Text fontSize="2xl" color="white" fontWeight="medium" mb="1rem">Github Contribution</Text>
 <GitHubCalendar margin="auto" username="sagarsandbhor17"/>
 </div>
 

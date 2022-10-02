@@ -60,3 +60,27 @@ a, a:hover {
   background-color: #000;
   border: 1px solid #000;
 }
+
+.profile{
+  border-radius:9rem;
+  width:27%;
+}
+
+.desc{
+  color:pink;
+  font-weight:bold;
+  width:80%;
+  margin:auto;
+}
+@media screen and (max-width:768px){
+  .profile{
+    border-radius:9rem;
+    width:80%
+  }
+  .desc{
+    color:pink;
+    font-weight:none;
+    width:100%;
+    margin:auto;
+  }
+}

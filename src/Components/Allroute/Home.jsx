@@ -66,14 +66,14 @@ and some other cool libraries and frameworks.</Text></Text>
             </Box>
         <Box borderRadius="1rem" style={profileStyle}>
         <Flex justifyContent="center">
-        <Image borderRadius="full" src={profilePic} width="27%" style={imgStyle} alt="Sagar Sandbhor"/> 
+        <Image className="profile" src={profilePic} style={imgStyle} alt="Sagar Sandbhor"/> 
         </Flex>
 
         <Stack color="white">
             <Text ml="1rem" fontWeight="extrabold" fontSize="3xl">Sagar Sandbhor</Text>
             <Text ml="3rem" fontStyle="italic" fontWeight="bold" fontSize="1xl">Full-Stack Developer</Text>
             <div style={{width:"90%",margin:"auto"}}>
-              <Text color="pink" fontWeight="medium">
+              <Text className='desc'>
 I'm an aspiring Full Stack Web Developer,with a 
 specialization in HTML,CSS,JavaScript,MongoDb,
 Express.js,React.js,Node.js eager to learn new
@@ -83,7 +83,7 @@ curious,with fast learning skills as well as an
 Observant and detail oriented person with a keen
 interest learning technology.</Text></div>
             <div style={{marginLeft:"0.7rem"}}>
-                <Button width="35%" pd="0.3rem"colorScheme="whiteAlpha" >
+                <Button width="auto" pd="1rem"colorScheme="whiteAlpha" >
                     <a style={{color:"white"}} href="https://drive.google.com/u/0/uc?id=1AiJ8g40LWW90ojtZtDCSJgHfN9fedKFT&export=download">
                         Resume
                         </a>

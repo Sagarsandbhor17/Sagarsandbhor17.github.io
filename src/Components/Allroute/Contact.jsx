@@ -5,7 +5,7 @@ const style={width:"90%",height:"80px",marginTop:"2.5rem",marginLeft:"0.5rem"}
 export const Contact=()=>{
     return <div>
     <Box>
-<Text color="white" fontSize="2xl" fontFamily="sans-serif">Contact Me</Text>
+<Text color="white" fontSize="2xl" textAlign='center' fontFamily="sans-serif">Contact Me</Text>
 <div align="center" class="socialbtns">
 <ul>
 <li><a target="_blank" href="tel:+919527109441" class="fa fa-lg fa-mobile"></a></li>
