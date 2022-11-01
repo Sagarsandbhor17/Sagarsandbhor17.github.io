@@ -10,6 +10,24 @@ export const Project=()=>{
             <Text color="red" fontSize="2xl" >My Projects</Text>
             <hr style={{backgroundColor:"orange",width:"100%",height:"2px",marginBottom:"1rem"}}/>
 
+
+            <SimpleGrid columns={[1,1,2]} spacing='10px'>
+  <Box className="Box" width="100%"><img style={imgStyle} src="https://www.getharvest.com/hs-fs/hubfs/screenshot-home-timesheets.png?width=1700&name=screenshot-home-timesheets.png"/></Box>
+  <Box textAlign="left" mt="1rem" ml="1rem" width="100%">
+    <Text fontSize="3xl" fontWeight="medium" color="white">getHarvest Clone -Project</Text>
+    <Text fontSize="1xl" fontWeight="medium" color="pink">Tools: React || JavaScript || Chakra Ui || Redux || Node.js || MongoDB || Express ||</Text>
+    <Text color="yellow">Harvest is a web app for time tracking and projects management. Created Full Stack App to handle all the details about the project,employee time tracking...</Text>
+    <div style={btnStyle}>
+        <Button variant="outline" colorScheme="pink">
+           <a target="_blank" href="https://harvest-clone-eta.vercel.app/"><Text fontWeight="bold">Live</Text></a>
+            </Button>
+            <Button variant="outline" colorScheme="pink">
+           <a target="_blank" href="https://github.com/Sagarsandbhor17/Harvest"><Text fontWeight="bold">Code</Text></a>
+            </Button>
+    </div>
+  </Box>
+</SimpleGrid>
+
             <SimpleGrid columns={[1,1,2]} spacing='10px'>
   <Box className="Box" width="100%"><img style={imgStyle} src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fd337b26121202b5bfb96d7_OriginalSize(1).png"/></Box>
   <Box textAlign="left" mt="1rem" ml="1rem" width="100%">
