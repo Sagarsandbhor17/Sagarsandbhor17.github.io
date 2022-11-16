@@ -233,6 +233,26 @@ const Services = () => {
                 {/* <small className='text_light'>Intermediate</small> */}
               </div>
             </article>
+
+            <article  className='experince_details'>
+              {/* <BsPatchCheckFill className='experience_details_icon' /> */}
+              <div className='circle_eleven'  >
+              <div className='circle_main' data-aos="fade-up">
+                <div className="percent">
+                  <div className="dot"></div>
+                <svg>
+                  <circle cx="35" cy="35" r="35"></circle>
+                  <circle cx="35" cy="35" r="35"></circle>
+                </svg>
+                <div className="number_circle">
+                  <h2>90<span>%</span></h2>
+                </div>
+                </div>
+                </div>
+                <h4>Remote Work</h4>
+                {/* <small className='text_light'>Intermediate</small> */}
+              </div>
+            </article>
           </div>
         </div>
       </div>

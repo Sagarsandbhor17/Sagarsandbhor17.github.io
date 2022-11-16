@@ -20,7 +20,7 @@ const data = [
     avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUD1nFZH9vgk_IMcI2rgZhtNmG3r8UfZQVAA&usqp=CAU",
     name: "Modern College(Pune)",
     year:"2018-2021",
-    review: "BSc (Mathematics)"
+    review: "BSc Mathematics is a three-year undergraduate degree program focused on developing mathematical skills and knowledge in calculus, data analysis, trigonometry, algebra, etc."
   },
   {
     avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUD1nFZH9vgk_IMcI2rgZhtNmG3r8UfZQVAA&usqp=CAU",
