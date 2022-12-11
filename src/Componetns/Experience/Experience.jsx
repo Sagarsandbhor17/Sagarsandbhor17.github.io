@@ -100,6 +100,7 @@ const Experience = () => {
                 <img src="https://gayathry-portfolio.vercel.app/express.png" alt="avatar" />
               </div>
               <h4>Express</h4>
+        
               {/* <small className='text_light'>Intermediate</small> */}
               </div>
             </article>
