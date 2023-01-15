@@ -6,7 +6,8 @@ import { BiBook } from 'react-icons/bi'
 import { RiServiceLine } from 'react-icons/ri'
 import { BiMessageSquareDetail } from 'react-icons/bi'
 import { AiOutlineMenuFold } from 'react-icons/ai'
-import { BsChevronDoubleRight } from 'react-icons/bs'
+import { BsChevronDoubleRight } from 'react-icons/bs';
+import cv from "../../Assests/Sagar_Sandbhor_Resume.pdf";
 import { CgNotes } from 'react-icons/cg'
 import { useState } from 'react'
 
@@ -31,7 +32,7 @@ const Nav = () => {
           <li><a href="#projects"  onClick={()=>handleHide("#projects")} className={activenav==="#projects" ? "active" : ""}>Projects</a></li>
           <li><a href="#skill" onClick={()=>handleHide("#skill")} className={activenav==="#skill" ? "active" : ""}>Skills</a></li>
           <li><a href="#contact" onClick={()=>handleHide("#contact")} className={activenav==="#contact" ? "active" : ""}>Contact</a></li>
-          <li><a href="https://drive.google.com/u/0/uc?id=1AiJ8g40LWW90ojtZtDCSJgHfN9fedKFT&export=download" download> <button className='resume_btn' onClick={()=>{
+          <li><a href={cv} download="Sagar_Sandbhor_Resume"> <button className='resume_btn' onClick={()=>{
             window.open("https://drive.google.com/file/d/1AiJ8g40LWW90ojtZtDCSJgHfN9fedKFT/view?usp=share_link")
           }}> Resume </button></a></li>
         </ul>

@@ -10,6 +10,8 @@ import { IoMdCloudDownload } from 'react-icons/io'
 import Typewriter from "typewriter-effect"
 import Particles, { ISourceOptions } from "react-particles";
 import myimg from "../../Assests/sagar.jpg"
+import cv from "../../Assests/Sagar_Sandbhor_Resume.pdf";
+// https://drive.google.com/u/0/uc?id=1AiJ8g40LWW90ojtZtDCSJgHfN9fedKFT&export=download
 const Header = () => {
   return (
     <header>
@@ -47,7 +49,7 @@ const Header = () => {
               pauseFor: 1000
             }}
           /></div></div>
-          <a href="https://drive.google.com/u/0/uc?id=1AiJ8g40LWW90ojtZtDCSJgHfN9fedKFT&export=download" className='btn btn_primary web' download>Resume <IoMdCloudDownload className='resume_icon' /></a>
+          <a href={cv} download="Sagar_Sandbhor_Resume" className='btn btn_primary web'>Resume <IoMdCloudDownload className='resume_icon' /></a>
           <div className='header_socials'>
             <a href="https://www.linkedin.com/in/sagar-sandbhor-896474233" target="_blank"><BsLinkedin /></a>
             <a href="https://github.com/Sagarsandbhor17" target="_blank"><FaGithub /></a>
