@@ -33,7 +33,7 @@ const Nav = () => {
           <li><a href="#skill" onClick={()=>handleHide("#skill")} className={activenav==="#skill" ? "active" : ""}>Skills</a></li>
           <li><a href="#contact" onClick={()=>handleHide("#contact")} className={activenav==="#contact" ? "active" : ""}>Contact</a></li>
           <li><a href={cv} download="Sagar_Sandbhor_Resume"> <button className='resume_btn' onClick={()=>{
-            window.open("https://drive.google.com/file/d/1AiJ8g40LWW90ojtZtDCSJgHfN9fedKFT/view?usp=share_link")
+            window.open("https://drive.google.com/file/d/1Gn_Q3mejbE50Ut7V7lXlYhMrxVVMOoeA/view?usp=share_link")
           }}> Resume </button></a></li>
         </ul>
       </div>
