@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.e4335d23.css",
-    "main.js": "/static/js/main.df908b32.js",
+    "main.js": "/static/js/main.3807e772.js",
     "static/media/sagar.jpg": "/static/media/sagar.16ed366e819147b84d0a.jpg",
     "static/media/Sagar_Sandbhor_Resume.pdf": "/static/media/Sagar_Sandbhor_Resume.0853450ed3d506a7cdce.pdf",
     "index.html": "/index.html",
     "main.e4335d23.css.map": "/static/css/main.e4335d23.css.map",
-    "main.df908b32.js.map": "/static/js/main.df908b32.js.map"
+    "main.3807e772.js.map": "/static/js/main.3807e772.js.map"
   },
   "entrypoints": [
     "static/css/main.e4335d23.css",
-    "static/js/main.df908b32.js"
+    "static/js/main.3807e772.js"
   ]
 }
